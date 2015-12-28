@@ -1,0 +1,24 @@
+{
+  "name": "node-js-getting-started",
+  "version": "0.1.6",
+  "description": "Andreas Solberg APIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "moment": "^2.10.6",
+    "moment-timezone": "^0.4.1",
+    "mongodb": "~2.0.43",
+    "tfbjs": "^0.1.2"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "keywords": [
+    "api"
+  ]
+}
