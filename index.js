@@ -10,7 +10,14 @@ var
 // BibFetcher = require('./lib/bib/Fetcher').Fetcher;
 
 var config = JSON.parse(fs.readFileSync('etc/config.json', 'utf8'));
-// console.log("Config", config);
+
+
+var file = '/etc/secrets/secrets';
+var secrets = JSON.parse(fs.readFileSync(file, 'utf8'));
+
+config.secrets = secrets;
+
+console.log("Config", config);
 
 
 app.set('json spaces', 2);
